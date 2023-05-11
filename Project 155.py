@@ -14,7 +14,7 @@ root.geometry("400x400")
 dictionary = {"Colours" : ["maroon1","lawn green","magenta2","purple1","springgreen2","chocolate1", "deep pink","cyan"]}
 
 def background_color_change():
-    random_color = random.randint(0 , 478)
+    random_color = random.randint(0 , 8)
     print(dictionary["Colours"][random_color])
     root.configure(background= dictionary["Colours"][random_color])
     
