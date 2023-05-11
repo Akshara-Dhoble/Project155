@@ -15,10 +15,10 @@ dictionary = {"Colours" : ["maroon1","lawn green","magenta2","purple1","springgr
 
 def background_color_change():
     random_color = random.randint(0 , 478)
-    print(dictionary["Colours"][rendom_color])
-    root.configure(background= dictionary["Colours"][rendom_color])
+    print(dictionary["Colours"][random_color])
+    root.configure(background= dictionary["Colours"][random_color])
     
 btn_1 = Button(root , text = "Click Me" , command=background_color_change) 
 btn_1.place(relx=0.5 , rely=0.5 , anchor=CENTER)   
     
-rrot.mainloop()
+root.mainloop()
